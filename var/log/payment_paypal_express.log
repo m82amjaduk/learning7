@@ -1,0 +1,558 @@
+2014-11-05T17:35:21+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+        )
+
+    [response] => Array
+        (
+            [PAL] => M3ZKA9LVVWSSC
+            [LOCALE] => en_GB
+            [TIMESTAMP] => 2014-11-05T17:35:21Z
+            [CORRELATIONID] => c58c6da131c8d
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13443904
+        )
+
+    [__pid] => 3412
+)
+
+2014-11-05T17:35:42+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 41.98
+            [CURRENCYCODE] => GBP
+            [RETURNURL] => http://learning7.lc/index.php/paypal/express/return/
+            [CANCELURL] => http://learning7.lc/index.php/paypal/express/cancel/
+            [INVNUM] => 100000001
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://learning7.lc/index.php/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://learning7.lc/index.php/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://learning7.lc/index.php/checkout/onepage/success/
+            [LOCALECODE] => en_GB
+            [ITEMAMT] => 31.98
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 10.00
+            [L_NUMBER0] => TEST
+            [L_NAME0] => Test Product
+            [L_QTY0] => 2
+            [L_AMT0] => 15.99
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => amojumder@ryman.co.uk
+            [FIRSTNAME] => Amzad
+            [LASTNAME] => Mojumder
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => GB
+            [STATE] => 
+            [CITY] => Woking
+            [STREET] => 48 walton court
+            [ZIP] => GU21 5ED
+            [PHONENUM] => 07900642131
+            [SHIPTOCOUNTRYCODE] => GB
+            [SHIPTOSTATE] => 
+            [SHIPTOCITY] => Woking
+            [SHIPTOSTREET] => 48 walton court
+            [SHIPTOZIP] => GU21 5ED
+            [SHIPTOPHONENUM] => 07900642131
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Amzad Mojumder
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-81U89767ER409962J
+            [TIMESTAMP] => 2014-11-05T17:35:42Z
+            [CORRELATIONID] => d7e61d37edc54
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13630372
+        )
+
+    [__pid] => 3412
+)
+
+2014-11-05T17:36:21+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [GetExpressCheckoutDetails] => Array
+        (
+            [TOKEN] => EC-81U89767ER409962J
+            [METHOD] => GetExpressCheckoutDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-81U89767ER409962J
+            [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+            [CHECKOUTSTATUS] => PaymentActionNotInitiated
+            [TIMESTAMP] => 2014-11-05T17:36:21Z
+            [CORRELATIONID] => 7d8823fe8e106
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13630372
+            [EMAIL] => amzadfof@gmail.com
+            [PAYERID] => APMMR7M3QSNQE
+            [PAYERSTATUS] => verified
+            [BUSINESS] => conosurtek Ltd
+            [FIRSTNAME] => Amzad
+            [LASTNAME] => Mojumder
+            [COUNTRYCODE] => GB
+            [SHIPTONAME] => Amzad Mojumder
+            [SHIPTOSTREET] => 48 Walton Court
+            [SHIPTOCITY] => WOKING
+            [SHIPTOSTATE] => AL
+            [SHIPTOZIP] => GU21 5ED
+            [SHIPTOCOUNTRYCODE] => GB
+            [SHIPTOPHONENUM] => 07900642131
+            [SHIPTOCOUNTRYNAME] => United Kingdom
+            [ADDRESSSTATUS] => Confirmed
+            [CURRENCYCODE] => GBP
+            [AMT] => 41.98
+            [ITEMAMT] => 31.98
+            [SHIPPINGAMT] => 10.00
+            [HANDLINGAMT] => 0.00
+            [TAXAMT] => 0.00
+            [INVNUM] => 100000001
+            [INSURANCEAMT] => 0.00
+            [SHIPDISCAMT] => 0.00
+            [L_NAME0] => Test Product
+            [L_NUMBER0] => TEST
+            [L_QTY0] => 2
+            [L_TAXAMT0] => 0.00
+            [L_AMT0] => 15.99
+            [L_ITEMWEIGHTVALUE0] =>    0.00000
+            [L_ITEMLENGTHVALUE0] =>    0.00000
+            [L_ITEMWIDTHVALUE0] =>    0.00000
+            [L_ITEMHEIGHTVALUE0] =>    0.00000
+            [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+            [PAYMENTREQUEST_0_AMT] => 41.98
+            [PAYMENTREQUEST_0_ITEMAMT] => 31.98
+            [PAYMENTREQUEST_0_SHIPPINGAMT] => 10.00
+            [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+            [PAYMENTREQUEST_0_TAXAMT] => 0.00
+            [PAYMENTREQUEST_0_INVNUM] => 100000001
+            [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+            [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+            [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+            [PAYMENTREQUEST_0_SHIPTONAME] => Amzad Mojumder
+            [PAYMENTREQUEST_0_SHIPTOSTREET] => 48 Walton Court
+            [PAYMENTREQUEST_0_SHIPTOCITY] => WOKING
+            [PAYMENTREQUEST_0_SHIPTOSTATE] => AL
+            [PAYMENTREQUEST_0_SHIPTOZIP] => GU21 5ED
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+            [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 07900642131
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => United Kingdom
+            [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+            [L_PAYMENTREQUEST_0_NAME0] => Test Product
+            [L_PAYMENTREQUEST_0_NUMBER0] => TEST
+            [L_PAYMENTREQUEST_0_QTY0] => 2
+            [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+            [L_PAYMENTREQUEST_0_AMT0] => 15.99
+            [L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0] =>    0.00000
+            [L_PAYMENTREQUEST_0_ITEMLENGTHVALUE0] =>    0.00000
+            [L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0] =>    0.00000
+            [L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0] =>    0.00000
+            [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+        )
+
+    [__pid] => 4416
+)
+
+2014-11-05T17:36:41+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [DoExpressCheckoutPayment] => Array
+        (
+            [TOKEN] => EC-81U89767ER409962J
+            [PAYERID] => APMMR7M3QSNQE
+            [PAYMENTACTION] => Authorization
+            [AMT] => 41.98
+            [CURRENCYCODE] => GBP
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+            [NOTIFYURL] => http://learning7.lc/index.php/paypal/ipn/
+            [RETURNFMFDETAILS] => 1
+            [ITEMAMT] => 31.98
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 10.00
+            [L_NUMBER0] => TEST
+            [L_NAME0] => Test Product
+            [L_QTY0] => 2
+            [L_AMT0] => 15.99
+            [BUSINESS] => conosurtek Ltd
+            [EMAIL] => amojumder@ryman.co.uk
+            [FIRSTNAME] => Amzad
+            [LASTNAME] => Mojumder
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => GB
+            [STATE] => 
+            [CITY] => Woking
+            [STREET] => 48 walton court
+            [ZIP] => GU21 5ED
+            [PHONENUM] => 07900642131
+            [SHIPTOCOUNTRYCODE] => GB
+            [SHIPTOSTATE] => AL
+            [SHIPTOCITY] => Woking
+            [SHIPTOSTREET] => 48 walton court
+            [SHIPTOZIP] => GU21 5ED
+            [SHIPTOPHONENUM] => 07900642131
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Amzad Mojumder
+            [ADDROVERRIDE] => 1
+            [METHOD] => DoExpressCheckoutPayment
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-81U89767ER409962J
+            [SUCCESSPAGEREDIRECTREQUESTED] => false
+            [TIMESTAMP] => 2014-11-05T17:36:41Z
+            [CORRELATIONID] => f852ad7565675
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13630372
+            [TRANSACTIONID] => 8EF713393R669084Y
+            [TRANSACTIONTYPE] => cart
+            [PAYMENTTYPE] => instant
+            [ORDERTIME] => 2014-11-05T17:36:41Z
+            [AMT] => 41.98
+            [TAXAMT] => 0.00
+            [CURRENCYCODE] => GBP
+            [PAYMENTSTATUS] => Pending
+            [PENDINGREASON] => authorization
+            [REASONCODE] => None
+            [PROTECTIONELIGIBILITY] => Eligible
+            [INSURANCEOPTIONSELECTED] => false
+            [SHIPPINGOPTIONISDEFAULT] => false
+            [PAYMENTINFO_0_TRANSACTIONID] => 8EF713393R669084Y
+            [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+            [PAYMENTINFO_0_PAYMENTTYPE] => instant
+            [PAYMENTINFO_0_ORDERTIME] => 2014-11-05T17:36:41Z
+            [PAYMENTINFO_0_AMT] => 41.98
+            [PAYMENTINFO_0_TAXAMT] => 0.00
+            [PAYMENTINFO_0_CURRENCYCODE] => GBP
+            [PAYMENTINFO_0_PAYMENTSTATUS] => Pending
+            [PAYMENTINFO_0_PENDINGREASON] => authorization
+            [PAYMENTINFO_0_REASONCODE] => None
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+            [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => M3ZKA9LVVWSSC
+            [PAYMENTINFO_0_ERRORCODE] => 0
+            [PAYMENTINFO_0_ACK] => Success
+        )
+
+    [__pid] => 4448
+)
+
+2014-11-06T09:31:59+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+        )
+
+    [response] => Array
+        (
+            [PAL] => M3ZKA9LVVWSSC
+            [LOCALE] => en_GB
+            [TIMESTAMP] => 2014-11-06T09:31:59Z
+            [CORRELATIONID] => 29f74f7614002
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13443904
+        )
+
+    [__pid] => 1272
+)
+
+2014-11-06T09:34:37+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 20.99
+            [CURRENCYCODE] => GBP
+            [RETURNURL] => http://learning7.lc/index.php/paypal/express/return/
+            [CANCELURL] => http://learning7.lc/index.php/paypal/express/cancel/
+            [INVNUM] => 100000002
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://learning7.lc/index.php/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://learning7.lc/index.php/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://learning7.lc/index.php/checkout/onepage/success/
+            [LOCALECODE] => en_GB
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 5.00
+            [L_NUMBER0] => TEST
+            [L_NAME0] => Test Product
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [BUSINESS] => conosurtek Ltd
+            [NOTETEXT] => 
+            [EMAIL] => amojumder@ryman.co.uk
+            [FIRSTNAME] => Amzad
+            [LASTNAME] => Mojumder
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => GB
+            [STATE] => 
+            [CITY] => Woking
+            [STREET] => 48 walton court
+            [ZIP] => GU21 5ED
+            [PHONENUM] => 07900642131
+            [SHIPTOCOUNTRYCODE] => GB
+            [SHIPTOSTATE] => 
+            [SHIPTOCITY] => Woking
+            [SHIPTOSTREET] => 48 walton court
+            [SHIPTOZIP] => GU21 5ED
+            [SHIPTOPHONENUM] => 07900642131
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Amzad Mojumder
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-76175816DC0446615
+            [TIMESTAMP] => 2014-11-06T09:34:37Z
+            [CORRELATIONID] => c92974aea585b
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13630372
+        )
+
+    [__pid] => 1272
+)
+
+2014-11-06T09:35:17+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [GetExpressCheckoutDetails] => Array
+        (
+            [TOKEN] => EC-76175816DC0446615
+            [METHOD] => GetExpressCheckoutDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-76175816DC0446615
+            [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+            [CHECKOUTSTATUS] => PaymentActionNotInitiated
+            [TIMESTAMP] => 2014-11-06T09:35:17Z
+            [CORRELATIONID] => 5bbe5b7988617
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13630372
+            [EMAIL] => amzadfof@gmail.com
+            [PAYERID] => APMMR7M3QSNQE
+            [PAYERSTATUS] => verified
+            [BUSINESS] => conosurtek Ltd
+            [FIRSTNAME] => Amzad
+            [LASTNAME] => Mojumder
+            [COUNTRYCODE] => GB
+            [SHIPTONAME] => Amzad Mojumder
+            [SHIPTOSTREET] => 48 Walton Court
+            [SHIPTOCITY] => WOKING
+            [SHIPTOSTATE] => AL
+            [SHIPTOZIP] => GU21 5ED
+            [SHIPTOCOUNTRYCODE] => GB
+            [SHIPTOPHONENUM] => 07900642131
+            [SHIPTOCOUNTRYNAME] => United Kingdom
+            [ADDRESSSTATUS] => Confirmed
+            [CURRENCYCODE] => GBP
+            [AMT] => 20.99
+            [ITEMAMT] => 15.99
+            [SHIPPINGAMT] => 5.00
+            [HANDLINGAMT] => 0.00
+            [TAXAMT] => 0.00
+            [INVNUM] => 100000002
+            [INSURANCEAMT] => 0.00
+            [SHIPDISCAMT] => 0.00
+            [L_NAME0] => Test Product
+            [L_NUMBER0] => TEST
+            [L_QTY0] => 1
+            [L_TAXAMT0] => 0.00
+            [L_AMT0] => 15.99
+            [L_ITEMWEIGHTVALUE0] =>    0.00000
+            [L_ITEMLENGTHVALUE0] =>    0.00000
+            [L_ITEMWIDTHVALUE0] =>    0.00000
+            [L_ITEMHEIGHTVALUE0] =>    0.00000
+            [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+            [PAYMENTREQUEST_0_AMT] => 20.99
+            [PAYMENTREQUEST_0_ITEMAMT] => 15.99
+            [PAYMENTREQUEST_0_SHIPPINGAMT] => 5.00
+            [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+            [PAYMENTREQUEST_0_TAXAMT] => 0.00
+            [PAYMENTREQUEST_0_INVNUM] => 100000002
+            [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+            [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+            [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+            [PAYMENTREQUEST_0_SHIPTONAME] => Amzad Mojumder
+            [PAYMENTREQUEST_0_SHIPTOSTREET] => 48 Walton Court
+            [PAYMENTREQUEST_0_SHIPTOCITY] => WOKING
+            [PAYMENTREQUEST_0_SHIPTOSTATE] => AL
+            [PAYMENTREQUEST_0_SHIPTOZIP] => GU21 5ED
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+            [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 07900642131
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => United Kingdom
+            [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+            [L_PAYMENTREQUEST_0_NAME0] => Test Product
+            [L_PAYMENTREQUEST_0_NUMBER0] => TEST
+            [L_PAYMENTREQUEST_0_QTY0] => 1
+            [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+            [L_PAYMENTREQUEST_0_AMT0] => 15.99
+            [L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0] =>    0.00000
+            [L_PAYMENTREQUEST_0_ITEMLENGTHVALUE0] =>    0.00000
+            [L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0] =>    0.00000
+            [L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0] =>    0.00000
+            [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+        )
+
+    [__pid] => 5108
+)
+
+2014-11-06T09:35:27+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [DoExpressCheckoutPayment] => Array
+        (
+            [TOKEN] => EC-76175816DC0446615
+            [PAYERID] => APMMR7M3QSNQE
+            [PAYMENTACTION] => Authorization
+            [AMT] => 20.99
+            [CURRENCYCODE] => GBP
+            [BUTTONSOURCE] => Varien_Cart_EC_US
+            [NOTIFYURL] => http://learning7.lc/index.php/paypal/ipn/
+            [RETURNFMFDETAILS] => 1
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 5.00
+            [L_NUMBER0] => TEST
+            [L_NAME0] => Test Product
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [BUSINESS] => conosurtek Ltd
+            [EMAIL] => amojumder@ryman.co.uk
+            [FIRSTNAME] => Amzad
+            [LASTNAME] => Mojumder
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => GB
+            [STATE] => 
+            [CITY] => Woking
+            [STREET] => 48 walton court
+            [ZIP] => GU21 5ED
+            [PHONENUM] => 07900642131
+            [SHIPTOCOUNTRYCODE] => GB
+            [SHIPTOSTATE] => AL
+            [SHIPTOCITY] => Woking
+            [SHIPTOSTREET] => 48 walton court
+            [SHIPTOZIP] => GU21 5ED
+            [SHIPTOPHONENUM] => 07900642131
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Amzad Mojumder
+            [ADDROVERRIDE] => 1
+            [METHOD] => DoExpressCheckoutPayment
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-76175816DC0446615
+            [SUCCESSPAGEREDIRECTREQUESTED] => false
+            [TIMESTAMP] => 2014-11-06T09:35:27Z
+            [CORRELATIONID] => dcec42ccf3f8e
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 13630372
+            [TRANSACTIONID] => 8733320010568412S
+            [TRANSACTIONTYPE] => cart
+            [PAYMENTTYPE] => instant
+            [ORDERTIME] => 2014-11-06T09:35:27Z
+            [AMT] => 20.99
+            [TAXAMT] => 0.00
+            [CURRENCYCODE] => GBP
+            [PAYMENTSTATUS] => Pending
+            [PENDINGREASON] => authorization
+            [REASONCODE] => None
+            [PROTECTIONELIGIBILITY] => Eligible
+            [INSURANCEOPTIONSELECTED] => false
+            [SHIPPINGOPTIONISDEFAULT] => false
+            [PAYMENTINFO_0_TRANSACTIONID] => 8733320010568412S
+            [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+            [PAYMENTINFO_0_PAYMENTTYPE] => instant
+            [PAYMENTINFO_0_ORDERTIME] => 2014-11-06T09:35:27Z
+            [PAYMENTINFO_0_AMT] => 20.99
+            [PAYMENTINFO_0_TAXAMT] => 0.00
+            [PAYMENTINFO_0_CURRENCYCODE] => GBP
+            [PAYMENTINFO_0_PAYMENTSTATUS] => Pending
+            [PAYMENTINFO_0_PENDINGREASON] => authorization
+            [PAYMENTINFO_0_REASONCODE] => None
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+            [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => M3ZKA9LVVWSSC
+            [PAYMENTINFO_0_ERRORCODE] => 0
+            [PAYMENTINFO_0_ACK] => Success
+        )
+
+    [__pid] => 5108
+)
+

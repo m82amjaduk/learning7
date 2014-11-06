@@ -1,0 +1,9 @@
+a:5:{i:0;s:325:"Error in file: "C:\Zend\Apache2\htdocs\learning7\app\code\core\Enterprise\Catalog\sql\enterprise_catalog_setup\upgrade-1.13.0.4-1.13.0.5.php" - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9-catalog_category_entity-entity_id' for key 'UNQ_ENT_MVIEW_SUBSCRIBER_METADATA_ID_TARGET_TABLE_TARGET_COLUMN'";i:1;s:1038:"#0 C:\Zend\Apache2\htdocs\learning7\app\code\core\Mage\Core\Model\Resource\Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 C:\Zend\Apache2\htdocs\learning7\app\code\core\Mage\Core\Model\Resource\Setup.php(437): Mage_Core_Model_Resource_Setup->_modifyResourceDb('upgrade', '1.13.0.2', '1.13.0.9')
+#2 C:\Zend\Apache2\htdocs\learning7\app\code\core\Mage\Core\Model\Resource\Setup.php(320): Mage_Core_Model_Resource_Setup->_upgradeResourceDb('1.13.0.2', '1.13.0.9')
+#3 C:\Zend\Apache2\htdocs\learning7\app\code\core\Mage\Core\Model\Resource\Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 C:\Zend\Apache2\htdocs\learning7\app\code\core\Mage\Core\Model\App.php(417): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 C:\Zend\Apache2\htdocs\learning7\app\code\core\Mage\Core\Model\App.php(343): Mage_Core_Model_App->_initModules()
+#6 C:\Zend\Apache2\htdocs\learning7\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 C:\Zend\Apache2\htdocs\learning7\index.php(87): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:120:"/index.php/install/wizard/config/?config%5Blocale%5D=en_GB&config%5Btimezone%5D=Europe%2FLondon&config%5Bcurrency%5D=GBP";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}
