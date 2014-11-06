@@ -33,7 +33,7 @@
  */
 class Enterprise_Cms_Model_Config
 {
-    const XML_PATH_CONTENT_VERSIONING = 'cms/content/versioning';
+    const XML_PATH_CONTENT_VERSIONING = 'cms/content/versioning.txt';
 
     protected $_revisionControlledAttributes = array(
         'page' => array(
@@ -184,7 +184,7 @@ class Enterprise_Cms_Model_Config
     }
 
     /**
-     * Get default value for versioning from configuration.
+     * Get default value for versioning.txt from configuration.
      *
      * @return bool
      */

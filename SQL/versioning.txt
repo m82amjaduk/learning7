@@ -1,0 +1,9 @@
+#JustInstalled
+- Have a product
+- Have Paypal Configured.
+- Placed some orders.
+- Keep it as master ..
+
+
+#OnePageCheckout
+-Installed Onepage Checkout.
